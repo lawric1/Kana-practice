@@ -1,0 +1,31 @@
+{
+    "name": "Kana practice",
+    "description": "Practice the japanese alphabet.",
+    "version": "1.0",
+    "manifest_version": 3,
+    "icons": {
+        "64": "/images/icon-32x32.png",
+        "128": "/images/icon-64x64.png"
+    },
+    "background": {
+        "service_worker": "background.js"
+    },
+    "permissions": [
+        "tabs",
+        "storage"
+    ],
+    "action": {
+        "default_icon": {
+            "64": "/images/icon-32x32.png",
+            "128": "/images/icon-64x64.png"
+        },
+        "default_title": "Todo List",
+        "default_popup": "popup.html"
+    },
+    "web_accessible_resources": [
+        {
+            "resources": ["/images/*"],
+            "matches": [ "https://*/*" ]
+        }
+    ]
+}
