@@ -18,7 +18,7 @@
             "64": "/images/icon-32x32.png",
             "128": "/images/icon-64x64.png"
         },
-        "default_title": "Todo List",
+        "default_title": "Kana practice",
         "default_popup": "popup.html"
     },
     "web_accessible_resources": [
